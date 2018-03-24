@@ -9,6 +9,9 @@ The Firebase Power Meter is a python script written for the Raspberry Pi. It use
 - 5v and 12v PSU (this can be one unit or multiple)
 - Enclosure for all the components
 
+# Setup
+Be sure to setup your own firebase credentials in the datastore/fbDatastore.py file
+
 # Executing
 ```bash
 cd /opt
