@@ -1,6 +1,6 @@
 
 # Firebase Power Meter
-The Firebase Power Meter is a python script written for the Raspberry Pi. It uses an I2C Current sensor to monitor Current. 
+The Firebase Power Meter is a python script written for the Raspberry Pi. It uses an I2C Current sensor to monitor Current in an AC Circuit.
 
 # Hardware Requirements
 - Raspberry Pi Model 3 (B, B+)
@@ -10,6 +10,15 @@ The Firebase Power Meter is a python script written for the Raspberry Pi. It use
 - Enclosure for all the components
 
 # Setup
+
+* Dependencies
+    - to install dependancies:
+
+        ```bash
+        sudo pip install requests
+        sudo pip install python-firebase
+        ```
+
 Be sure to setup your own firebase credentials in the datastore/fbDatastore.py file
 
 # Executing
