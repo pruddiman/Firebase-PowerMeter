@@ -1,3 +1,4 @@
+
 # Firebase Power Meter
 The Firebase Power Meter is a python script written for the Raspberry Pi. It uses an I2C Current sensor to monitor Current. 
 
@@ -9,7 +10,9 @@ The Firebase Power Meter is a python script written for the Raspberry Pi. It use
 - Enclosure for all the components
 
 # Executing
-> cd /opt
-> git clone --depth=0 https://github.com/pruddiman/Firebase-PowerMeter ./powermeter
-> cd ./powermeter
-> python main.py 
+```bash
+cd /opt
+git clone --depth=0 https://github.com/pruddiman/Firebase-PowerMeter ./powermeter
+cd ./powermeter
+python main.py 
+```
