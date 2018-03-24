@@ -15,7 +15,7 @@ Be sure to setup your own firebase credentials in the datastore/fbDatastore.py f
 # Executing
 ```bash
 cd /opt
-git clone --depth=0 https://github.com/pruddiman/Firebase-PowerMeter ./powermeter
+git clone --depth=1 https://github.com/pruddiman/Firebase-PowerMeter ./powermeter
 cd ./powermeter
 python main.py 
 ```
